@@ -5,7 +5,7 @@ jQuery(document).ready(function($) {
 	var folder_url = 'css/colors/'; 
 
 	// Style switcher
- 	$(".hide-color").show(5000);
+ 	//$(".hide-color").show(5000);
     $('#custumize-style').animate({
         left: '-134px'
     });
