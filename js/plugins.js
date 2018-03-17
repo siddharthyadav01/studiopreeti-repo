@@ -44,30 +44,30 @@ jQuery(function ($) {
 
     var map;
 
-    //map = new GMaps({
-    //    el: '#map-wrapper',
-    //    lat: 23.475719, //Replace Here Location Google Map Lat
-    //    lng: 91.137101, //Replace Here Location Google Map Lng
-    //    scrollwheel:false,
-    //    zoom: 16,
-    //    zoomControl : true,
-    //    panControl : true,
-    //    streetViewControl : true,
-    //    mapTypeControl: false,
-    //    overviewMapControl: false,
-    //    clickable: true
-    //});
+    map = new GMaps({
+        el: '#map-wrapper',
+        lat: 25.253028, //Replace Here Location Google Map Lat
+        lng: 87.001904, //Replace Here Location Google Map Lng
+        scrollwheel:false,
+        zoom: 16,
+        zoomControl : true,
+        panControl : true,
+        streetViewControl : true,
+        mapTypeControl: false,
+        overviewMapControl: false,
+        clickable: true
+    });
 
     var image = '';
-    //map.addMarker({
-    //    lat: 23.475719, //Replace Here Location Google Map Lat
-    //    lng: 91.137101, //Replace Here Location Google Map Lat
-    //    icon: image,
-    //    animation: google.maps.Animation.DROP,
-    //    verticalAlign: 'bottom',
-    //    horizontalAlign: 'center',
-    //    backgroundColor: '#d9d9d9',
-    //});
+    map.addMarker({
+        lat: 25.253028, //Replace Here Location Google Map Lat
+        lng: 87.001904, //Replace Here Location Google Map Lat
+        icon: image,
+        animation: google.maps.Animation.DROP,
+        verticalAlign: 'bottom',
+        horizontalAlign: 'center',
+        backgroundColor: '#d9d9d9',
+    });
 
 
     var styles = [ 
@@ -108,13 +108,13 @@ jQuery(function ($) {
 
     ];
 
-    //map.addStyle({
-    //    styledMapName:"Styled Map",
-    //    styles: styles,
-    //    mapTypeId: "map_style"  
-    //});
+    map.addStyle({
+        styledMapName:"Styled Map",
+        styles: styles,
+        mapTypeId: "map_style"  
+    });
 
-    //map.setStyle("map_style");
+    map.setStyle("map_style");
 }());
 
 /**
