@@ -27,10 +27,10 @@
 // -------------------------------------------------------------
 
 $('.countdown').downCount({
-    date: '06/10/2016 12:00:00',
+    date: '01/01/2018 12:00:00',
     offset: +10
 }, function () {
-    alert('WOOT WOOT, done!');
+    //alert('WOOT WOOT, done!');
 });
      
 
