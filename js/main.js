@@ -54,7 +54,7 @@ $(window).load(preLoader);
 
 function preLoader() {
     setTimeout(function() {
-        $('#preload').delay(1000).fadeOut(1500);
+        $('#preload').delay(1000).fadeOut(1000);
     });
 };
 
